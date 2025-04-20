@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewsGrid</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>🗞️ NewsGrid</h1>
+        <div class="filters">
+            <select id="countrySelect">
+                <option value="us"> United States</option>
+                <option value="in"> India</option>
+                <option value="gb"> United Kingdom</option>
+                <option value="au">🇦Australia</option>
+                <option value="ca"> Canada</option>
+                <option value="de"> Germany</option>
+                <option value="fr"> France</option>
+                <option value="jp"> Japan</option>
+                <option value="br"> Brazil</option>
+                <option value="za"> South Africa</option>
+            </select>
+            <select id="categorySelect">
+                <option value="general">General</option>
+                <option value="technology">Technology</option>
+                <option value="sports">Sports</option>
+                <option value="business">Business</option>
+                <option value="entertainment">Entertainment</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div id="newsContainer" class="news-grid">
+            <!-- News cards will be injected here -->
+        </div>
+        <div id="loader" class="loader">Loading news...</div>
+        <div id="noNews" class="empty">No articles found.</div>
+    </main>
+
+    <footer>
+        <p>Developed by <span class="developer-name">Sudipta Sarkar</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
