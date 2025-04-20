@@ -49,4 +49,4 @@ NewsGrid is a modern and interactive web application that allows users to browse
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NewsGrid.git
+   git clone https://github.com/itzsudipta/NewsGrid.git
